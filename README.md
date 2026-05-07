@@ -1,6 +1,7 @@
 # Expense Tracker App
 
 A Flutter-based expense tracking application with clean UI and Provider state management.
+Integrate with REST API(GET/POST).
 
 ## Features
 - Add expenses
