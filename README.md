@@ -1,16 +1,26 @@
-# expens
+# Expense Tracker App
 
-A new Flutter project.
+A Flutter-based expense tracking application with clean UI and Provider state management.
 
-## Getting Started
+## Features
+- Add expenses
+- Expense listing
+- Search and filtering
+- Dashboard analytics
+- Category-wise expense summary
+- REST API integration
+- Clean responsive UI
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Provider
+- REST API
+- MVC architecture
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+![Expense-List](assets/adding.png)
+![Add Expense ](assets/expense-list.png)
+![Dashboard](assets/dashboard.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+Ranjith K Madhavan
