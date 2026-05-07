@@ -49,7 +49,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
       appBar: AppBar(
         backgroundColor: AppColors.primary,
 
-        title: Text('Expense List', style: AppTextStyles.appbarTitle),
+        title: Text('Add Expense ', style: AppTextStyles.appbarTitle),
       ),
       body: SingleChildScrollView(
         child: Padding(

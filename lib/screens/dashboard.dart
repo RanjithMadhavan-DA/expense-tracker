@@ -33,7 +33,7 @@ class DashboardScreen extends StatelessWidget {
                   ),
                   SizedBox(height: 6),
                   Text(
-                    "₹${provider.totalExpense}",
+                    "₹${provider.totalExpense.toStringAsFixed(2)}",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 22,
@@ -81,7 +81,10 @@ class DashboardScreen extends StatelessWidget {
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text(entry.key), Text("₹${entry.value}")],
+                      children: [
+                        Text(entry.key),
+                        Text("₹${entry.value.toStringAsFixed(2)}"),
+                      ],
                     ),
                   );
                 }).toList(),
